@@ -41,7 +41,7 @@ namespace Boxing.Controllers
 
         public ActionResult Callback(string ticket, string authtoken)
         {
-            _db.Log.Insert(Text: "ticket: " + ticket);
+            _db.Log.Insert(Text: "ticket: " + ticket + ", authtoken:" + authtoken);
             //new BoxManager().
             return RedirectToAction("Index");
         }
@@ -59,8 +59,12 @@ namespace Boxing.Controllers
         [HttpPost]
         public ActionResult Upload(HttpPostedFileBase files)
         {
-
+            
             var filesResult = new UploadFilesResult[1];
+
+            var request = new RestRequest();
+            request.AddParameter("action", "get_ticket");
+            request.AddParameter("api_key", "62kyzbstqic8fudqxc2n404mxmjhn5yf");
             
             filesResult[0] = new UploadFilesResult
                                 { 
