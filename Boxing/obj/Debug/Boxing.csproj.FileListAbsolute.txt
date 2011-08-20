@@ -11,3 +11,6 @@ C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.dll
 C:\Dev\Boxing\Boxing\bin\RestSharp.dll
 C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.pdb
 C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.xml
+C:\Dev\Boxing\Boxing\bin\Simple.Data.Ado.dll
+C:\Dev\Boxing\Boxing\bin\Simple.Data.dll
+C:\Dev\Boxing\Boxing\bin\Simple.Data.SqlServer.dll

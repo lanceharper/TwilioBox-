@@ -6,14 +6,19 @@ using System.Web.Mvc;
 using BoxSync.Core;
 using Boxing.Models;
 using RestSharp;
+using Simple.Data;
 
 namespace Boxing.Controllers
 {
     public class HomeController : Controller
     {
         private const string BaseUrl = "https://www.box.net/api/1.0/rest";
+        private dynamic _db = Database.OpenConnection(@"Server=db002.appharbor.net;Database=db4010;User ID=db4010;Password=Bbt6ZF7bbhwiXDGNjQuPhRow5DeA4wseDHzePym7MQguy25bq8Rgbx2SU5avBDfL;");
+
         public ActionResult Index()
         {
+           
+            _db.Log.Insert(Text: "test");
             return View();
         }
 
@@ -39,6 +44,7 @@ namespace Boxing.Controllers
 
         public ActionResult Callback(string ticket, string authtoken)
         {
+            _db.Log.Insert(Text: "ticket: " + ticket);
             //new BoxManager().
             return RedirectToAction("Index");
         }
