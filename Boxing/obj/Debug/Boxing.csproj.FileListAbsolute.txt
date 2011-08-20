@@ -5,8 +5,6 @@ C:\Dev\Boxing\Boxing\bin\EntityFramework.xml
 C:\Dev\Boxing\Boxing\obj\Debug\ResolveAssemblyReference.cache
 C:\Dev\Boxing\Boxing\obj\Debug\Boxing.dll
 C:\Dev\Boxing\Boxing\obj\Debug\Boxing.pdb
-C:\Dev\Boxing\Boxing\bin\BoxSync.Core.dll
-C:\Dev\Boxing\Boxing\bin\ICSharpCode.SharpZipLib.dll
 C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.dll
 C:\Dev\Boxing\Boxing\bin\RestSharp.dll
 C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.pdb
