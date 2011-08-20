@@ -1,0 +1,185 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Content/f:fullmap.css" caret="275" fromTop="18" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Content/f:style.css" caret="276" fromTop="12" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Shared/f:_Layout.cshtml" caret="407" fromTop="11" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Models/f:UploadFilesResult.cs" caret="440" fromTop="16" />
+      <File id="FD298340-59DA-46A9-BF02-BD6030A95904/f:upload.php" caret="11301" fromTop="14" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Models/f:BoxResponse.cs" caret="268" fromTop="12" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Controllers/f:HomeController.cs" caret="1360" fromTop="4" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Content/f:jquery.fileupload-ui.css" caret="965" fromTop="6" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:Upload.cshtml" caret="412" fromTop="9" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="420" fromTop="14" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="5074" fromTop="14" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:application.js" caret="336" fromTop="10" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="2902" fromTop="25" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload.js" caret="21110" fromTop="7" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Shared/f:_Layout.cshtml" caret="327" fromTop="7" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="1378" fromTop="34" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="1378" fromTop="19" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="6435" fromTop="14" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="6435" fromTop="12" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="1374" fromTop="20" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="731" fromTop="22" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="6435" fromTop="33" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="6435" fromTop="24" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="6435" fromTop="8" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:fullmap.js" caret="1306" fromTop="28" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="1392" fromTop="23" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="1393" fromTop="23" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="703" fromTop="16" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Content/f:style.css" caret="276" fromTop="12" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:Upload.cshtml" caret="3964" fromTop="17" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:Upload.cshtml" caret="417" fromTop="11" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:Upload.cshtml" caret="1118" fromTop="30" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="1467" fromTop="12" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="282" fromTop="6" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="2449" fromTop="26" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="4557" fromTop="33" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="5360" fromTop="14" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="5501" fromTop="18" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="26976" fromTop="21" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="25994" fromTop="17" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="19479" fromTop="17" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="3729" fromTop="17" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Scripts/f:jquery.fileupload-ui.js" caret="2902" fromTop="21" />
+      <File id="1A24A188-982E-45AF-8A9C-691E3CF41396/d:Views/d:Home/f:FullMap.cshtml" caret="4813" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="Action`0" priority="63" />
+      <Item value="return" priority="95" />
+      <Item value="Redirect`0" priority="129" />
+      <Item value="BoxSync.Core" priority="30" />
+      <Item value="BoxManager`0" priority="31" />
+      <Item value="new" priority="255" />
+      <Item value="BoxManager" priority="58" />
+      <Item value="string" priority="406" />
+      <Item value="public" priority="255" />
+      <Item value="Html" priority="29" />
+      <Item value="Try" priority="32" />
+      <Item value="const" priority="31" />
+      <Item value="BoxSync" priority="92" />
+      <Item value="Core" priority="26" />
+      <Item value="using" priority="30" />
+      <Item value="var" priority="95" />
+      <Item value="base" priority="31" />
+      <Item value="BaseUrl" priority="95" />
+      <Item value="request" priority="127" />
+      <Item value="Content`0" priority="31" />
+      <Item value="client" priority="127" />
+      <Item value="HttpBasicAuthenticator" priority="28" />
+      <Item value="Xml" priority="16" />
+      <Item value="Parameter" priority="28" />
+      <Item value="ParameterType`0" priority="31" />
+      <Item value="virtual" priority="63" />
+      <Item value="response" priority="63" />
+      <Item value="String`0" priority="63" />
+      <Item value="RenderSection`0" priority="26" />
+      <Item value="section" priority="29" />
+      <Item value="style.css" priority="22" />
+      <Item value="application.js" priority="22" />
+      <Item value="int" priority="31" />
+      <Item value="NewsStyleUriParser`0" priority="26" />
+      <Item value="UploadFilesResult`0" priority="31" />
+      <Item value="filesResult" priority="63" />
+      <Item value="delete_type" priority="31" />
+      <Item value="delete_url" priority="32" />
+      <Item value="name" priority="32" />
+      <Item value="size" priority="32" />
+      <Item value="thumbnail_url" priority="32" />
+      <Item value="url" priority="32" />
+      <Item value="files" priority="63" />
+      <Item value="ActionResult`0" priority="31" />
+      <Item value="View`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BoxSync.Core.BoxManager">
+      <Item value="Proxy" priority="26" />
+      <Item value="AddFile`0" priority="26" />
+      <Item value="PublicShare`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="Html" priority="9" />
+      <Item value="RenderSection`0" priority="5" />
+      <Item value="section" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="ActionLink`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RestSharp.RestClient">
+      <Item value="Execute`0" priority="26" />
+      <Item value="BaseUrl" priority="53" />
+      <Item value="RemoveHandler`0" priority="26" />
+      <Item value="Authenticator" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RestSharp.RestResponse">
+      <Item value="Content" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RestSharp.RestRequest">
+      <Item value="RequestFormat" priority="80" />
+      <Item value="Resource" priority="26" />
+      <Item value="Parameters" priority="26" />
+      <Item value="AddParameter`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RestSharp.RestResponse`1">
+      <Item value="Data" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Boxing.Models.BoxResponse">
+      <Item value="Ticket" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="ScriptContent" priority="5" />
+      <Item value="files" priority="11" />
+      <Item value="style" priority="5" />
+      <Item value="hanging-punctuation" priority="6" />
+      <Item value="class" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFileBase">
+      <Item value="FileName" priority="26" />
+      <Item value="ContentLength" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="$" priority="19" />
+      <Item value="function" priority="10" />
+      <Item value="infowindow" priority="10" />
+      <Item value="alert" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="map" priority="4" />
+      <Item value="hanging-punctuation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContextQualified">
+      <Item value="init" priority="7" />
+      <Item value="loadMarkers" priority="7" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files\NUnit 2.5.2\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
