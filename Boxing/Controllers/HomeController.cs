@@ -39,9 +39,9 @@ namespace Boxing.Controllers
             return Redirect(authUrl);
         }
 
-        public ActionResult Callback(string ticket, string authtoken)
+        public ActionResult Callback(string ticket, string auth_token)
         {
-            _db.Log.Insert(Text: "ticket: " + ticket + ", authtoken:" + authtoken);
+            _db.Log.Insert(Text: "ticket: " + ticket + ", authtoken:" + auth_token);
             //new BoxManager().
             return RedirectToAction("Index");
         }
