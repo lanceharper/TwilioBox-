@@ -1,0 +1,1 @@
+﻿C:\Dev\box-csharp\BoxSync.Core.dll

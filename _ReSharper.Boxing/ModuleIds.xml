@@ -1,3 +1,4 @@
 <Modules>
   <Module PersistentId="1A24A188-982E-45AF-8A9C-691E3CF41396" ModuleId="Boxing" />
+  <Module PersistentId="BoxSync.Core, Version=0.3.2.0, Culture=neutral, PublicKeyToken=null" ModuleId="BoxSync.Core" />
 </Modules>

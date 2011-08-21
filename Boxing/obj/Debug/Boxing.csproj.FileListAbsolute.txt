@@ -12,3 +12,12 @@ C:\Dev\Boxing\Boxing\bin\Newtonsoft.Json.xml
 C:\Dev\Boxing\Boxing\bin\Simple.Data.Ado.dll
 C:\Dev\Boxing\Boxing\bin\Simple.Data.dll
 C:\Dev\Boxing\Boxing\bin\Simple.Data.SqlServer.dll
+C:\Dev\Boxing\Boxing\bin\Twilio.Api.dll
+C:\Dev\Boxing\Boxing\bin\Twilio.Mvc.dll
+C:\Dev\Boxing\Boxing\bin\Twilio.Twiml.dll
+C:\Dev\Boxing\Boxing\bin\Twilio.Api.pdb
+C:\Dev\Boxing\Boxing\bin\Twilio.Api.xml
+C:\Dev\Boxing\Boxing\bin\Twilio.Mvc.pdb
+C:\Dev\Boxing\Boxing\bin\Twilio.Mvc.xml
+C:\Dev\Boxing\Boxing\bin\Twilio.Twiml.pdb
+C:\Dev\Boxing\Boxing\bin\Twilio.Twiml.xml
