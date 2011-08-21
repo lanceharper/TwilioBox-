@@ -22,10 +22,10 @@ namespace Boxing.Controllers
                 @"Server=db002.appharbor.net;Database=db4010;User ID=db4010;Password=Bbt6ZF7bbhwiXDGNjQuPhRow5DeA4wseDHzePym7MQguy25bq8Rgbx2SU5avBDfL;");
 
    
-        //[HttpPost]
+        [HttpPost]
         public TwiMLResult HandleSms(string Sid, string From, string To, string Body, string Status)
         {
-            _db.Log.Insert(Text: String.Format("From: {0}, To: {1}, Body: {2}", From, Body, Status));
+            _db.Log.Insert(Text: String.Format("From: {0}, To: {1}, Body: {2}", From, To, Body));
             var response = new TwilioResponse();
             response.Say("Received");
             return TwiML(response);
