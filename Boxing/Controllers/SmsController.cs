@@ -23,13 +23,11 @@ namespace Boxing.Controllers
 
    
         //[HttpPost]
-        public TwiMLResult HandleSms(string From, string To, string Body, string Status)
+        public TwiMLResult HandleSms(string Sid, string From, string To, string Body, string Status)
         {
+            _db.Log.Insert(Text: String.Format("From: {0}, To: {1}, Body: {2}", From, Body, Status));
             var response = new TwilioResponse();
             response.Say("Received");
-
-            _db.Log.Insert(Text: String.Format("From: {0}, To: {1}, Body: {2}", From, Body, Status));
-
             return TwiML(response);
         }
 
