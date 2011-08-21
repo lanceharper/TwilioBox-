@@ -22,7 +22,7 @@ namespace Boxing.Controllers
                 @"Server=db002.appharbor.net;Database=db4010;User ID=db4010;Password=Bbt6ZF7bbhwiXDGNjQuPhRow5DeA4wseDHzePym7MQguy25bq8Rgbx2SU5avBDfL;");
 
    
-        [HttpPost]
+        //[HttpPost]
         public TwiMLResult HandleSms(string From, string To, string Body, string Status)
         {
             var response = new TwilioResponse();
