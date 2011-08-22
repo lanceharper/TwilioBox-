@@ -8,14 +8,34 @@ namespace System.Web.Mvc
 {
     public static class HtmlExtensions
     {
-        public static string AbsoluteAction(this UrlHelper url, string action, object routeValues)
+        public static string ToPublicUrl(this UrlHelper urlHelper, Uri relativeUri)
         {
-            Uri requestUrl = url.RequestContext.HttpContext.Request.Url;
+            var httpContext = urlHelper.RequestContext.HttpContext;
+
+            var uriBuilder = new UriBuilder
+            {
+                Host = httpContext.Request.Url.Host,
+                Path = "/",
+                Port = 80,
+                Scheme = "http",
+            };
+
+            if (httpContext.Request.IsLocal)
+            {
+                uriBuilder.Port = httpContext.Request.Url.Port;
+            }
+
+            return new Uri(uriBuilder.Uri, relativeUri).AbsoluteUri;
+        }
+        public static string AbsoluteAction(this UrlHelper urlHelper, string action, object routeValues)
+        {
+            var httpContext = urlHelper.RequestContext.HttpContext;
+            Uri requestUrl = httpContext.Request.Url;
 
             string absoluteAction = string.Format("{0}://{1}{2}",
                                                   requestUrl.Scheme,
                                                   requestUrl.Authority,
-                                                  url.Action(action, routeValues));
+                                                  urlHelper.Action(action, routeValues));
 
             return absoluteAction;
         }

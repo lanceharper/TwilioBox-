@@ -183,11 +183,12 @@ namespace Boxing.Controllers
                 var response = client.Execute<UploadResponse>(request).Data;
 
                 var twilioClient = new TwilioRestClient(_twilioSID, _twilioAuthToken);
-                
+                    
                 // Need absolute Url for text message.
 
-                var fileUrl = Url.AbsoluteAction("Download", new {id = response.Files[i].Id});
-                var message = String.Format("A new file is available for {0}: {1}", tag, fileUrl);
+                var relativeUrl = Url.AbsoluteAction("Download", new { id = response.Files[i].Id });
+                var absoluteUrl = Url.ToPublicUrl(new Uri(relativeUrl));
+                var message = String.Format("A new file is available for {0}: {1}", tag, absoluteUrl);
 
                 // Notify the number in the config of the uploaded number.
                 twilioClient.SendSmsMessage(_twilioSandBoxNumber, _myPhoneNumber, String.Format("{0} {1}", _twilioSandBoxPIN, message));
