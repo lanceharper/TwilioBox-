@@ -186,8 +186,8 @@ namespace Boxing.Controllers
                     
                 // Need absolute Url for text message.
 
-                var relativeUrl = Url.AbsoluteAction("Download", new { id = response.Files[i].Id });
-                var absoluteUrl = Url.ToPublicUrl(new Uri(relativeUrl));
+                var relativeUrl = Url.Action("Download", new { id = response.Files[i].Id });
+                var absoluteUrl = Url.ToPublicUrl(relativeUrl);
                 var message = String.Format("A new file is available for {0}: {1}", tag, absoluteUrl);
 
                 // Notify the number in the config of the uploaded number.

@@ -8,7 +8,7 @@ namespace System.Web.Mvc
 {
     public static class HtmlExtensions
     {
-        public static string ToPublicUrl(this UrlHelper urlHelper, Uri relativeUri)
+        public static string ToPublicUrl(this UrlHelper urlHelper, string relativeUri)
         {
             var httpContext = urlHelper.RequestContext.HttpContext;
 
