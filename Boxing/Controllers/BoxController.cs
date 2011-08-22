@@ -114,7 +114,7 @@ namespace Boxing.Controllers
                              
             var request = new RestRequest
             {
-                Resource = string.Format("{0}/{1}/{2}", "download", "tx38aasgob0lq860k4ntu8q7p8fhu2yb", id)
+                Resource = string.Format("{0}/{1}/{2}", "download", _boxAuthToken, id)
             };
 
             //TODO: Make call to get real file name.
