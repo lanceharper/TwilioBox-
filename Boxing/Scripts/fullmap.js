@@ -43,7 +43,7 @@
                 position: new google.maps.LatLng(37.8120, -122.34820),
                 //icon: 'https://chart.googleapis.com/chart?chst=d_map_spin&chld=1|0|FFFFFF|16|b|' + ev.LocationId
                 //icon: mapiconFolder + ev.SwipeStatus + '.png',
-                tag: 'San Fransisco',
+                tag: 'San Francisco',
                 number: '(415) 555-5555',
                 folderId: 105995756
             });
