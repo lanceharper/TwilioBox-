@@ -22,5 +22,10 @@ namespace Boxing.Controllers
             return View();
         }
 
+        public ActionResult FullMap()
+        {
+            return View();
+        }
+
     }
 }
