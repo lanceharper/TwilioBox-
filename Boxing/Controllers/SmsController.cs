@@ -17,9 +17,8 @@ namespace Boxing.Controllers
         private readonly string _twilioAuthToken = ConfigurationManager.AppSettings["TwilioAuthToken"];
         private readonly string _twilioSandBoxNumber = ConfigurationManager.AppSettings["TwilioSandBoxNumber"];
         private readonly string _twilioSandBoxPIN = ConfigurationManager.AppSettings["TwilioSandBoxPIN"];
-        private readonly dynamic _db =
-            Database.OpenConnection(
-                @"Server=db002.appharbor.net;Database=db4010;User ID=db4010;Password=Bbt6ZF7bbhwiXDGNjQuPhRow5DeA4wseDHzePym7MQguy25bq8Rgbx2SU5avBDfL;");
+
+        private readonly dynamic _db = Database.Open();
 
    
         [HttpPost]

@@ -14,7 +14,7 @@ namespace Boxing.Controllers
 {
     public class BoxController : Controller
     {
-        private readonly dynamic _db = Database.OpenConnection(@"Server=db002.appharbor.net;Database=db4010;User ID=db4010;Password=Bbt6ZF7bbhwiXDGNjQuPhRow5DeA4wseDHzePym7MQguy25bq8Rgbx2SU5avBDfL;");
+        private readonly dynamic _db = Database.Open();
 
         private const string BaseUrl = "https://www.box.net/api/1.0/rest";
         private const string UploadUrl = "https://upload.box.net/api/1.0/";
@@ -189,7 +189,7 @@ namespace Boxing.Controllers
 
                 var relativeUrl = Url.Action("Download", new { id = response.Files[i].Id });
                 var absoluteUrl = Url.ToPublicUrl(relativeUrl);
-                var message = String.Format("A new file is available for {0}: {1}", tag, absoluteUrl);
+                var message = String.Format("A new file is available for {0}.", tag);
 
                 // Notify the number in the config of the uploaded number.
                 twilioClient.SendSmsMessage(_twilioSandBoxNumber, _myPhoneNumber, String.Format("{0} {1}", _twilioSandBoxPIN, message));
