@@ -66,6 +66,7 @@ namespace Boxing.Controllers
         {
             _db.Log.Insert(Text: "ticket: " + ticket + ", authtoken:" + auth_token);
 
+            //Session["auth_token"] = auth_token;
             return RedirectToAction("Index", "Home");
         }
 
